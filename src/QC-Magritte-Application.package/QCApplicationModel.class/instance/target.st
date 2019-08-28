@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 target
 	"To be able to use queried components"
-	^self
+	^ self

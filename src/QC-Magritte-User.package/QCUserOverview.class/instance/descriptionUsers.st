@@ -8,6 +8,5 @@ descriptionUsers
 		classes: self userClasses;
 		ordered: true;
 		comment: 'All users';
-		canAddBlock: [ self canAddUser ];
 		visibleInLabel: false;
 		yourself

@@ -1,3 +1,3 @@
 accessing-magritte
 defaultUserClass
-	^self userClasses first
+	^ self userClasses first

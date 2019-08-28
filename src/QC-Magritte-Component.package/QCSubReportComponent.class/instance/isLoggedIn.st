@@ -1,3 +1,5 @@
 accessing
 isLoggedIn
-	^self session isLoggedIn
+	^ self session isNil
+		ifTrue: [ false ]
+		ifFalse: [ :s | s isLoggedIn ]

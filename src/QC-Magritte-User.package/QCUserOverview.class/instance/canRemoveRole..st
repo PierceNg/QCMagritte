@@ -1,4 +1,3 @@
 accessing-magritte
 canRemoveRole: aRole
-	self users do: [ :each | (each hasRole: aRole) ifTrue: [ ^false ] ].
-	^true
+	^ self users noneSatisfy: [ :each | (each hasRole: aRole) ]

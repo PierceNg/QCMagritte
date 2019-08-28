@@ -1,3 +1,3 @@
 accessing
 isLoggedIn
-	^self user notNil
+	^ self user notNil

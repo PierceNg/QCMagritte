@@ -1,3 +1,3 @@
 accessing
 userOverview
-	^self
+	^ self

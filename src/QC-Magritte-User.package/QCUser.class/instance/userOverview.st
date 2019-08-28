@@ -1,3 +1,3 @@
 accessing
 userOverview
-	^self parent ifNotNil: [ self parent userOverview ]
+	^ self parent ifNotNil: [ self parent userOverview ]

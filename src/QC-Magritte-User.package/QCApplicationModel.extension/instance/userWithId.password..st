@@ -2,11 +2,11 @@
 userWithId: idString password: passwordString
 	| user |
 	user := self userWithId: idString.
-	user ifNil: [ ^nil ].
+	user ifNil: [ ^ nil ].
 	(user verifyPassword: passwordString)
 		ifTrue: [ 
 			user correctPassword.
-			^user ]
+			^ user ]
 		ifFalse: [
 			user wrongPassword.
-			^nil ]
+			^ nil ]
