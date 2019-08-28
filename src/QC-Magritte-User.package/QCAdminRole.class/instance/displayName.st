@@ -1,3 +1,3 @@
 accessing
 displayName
-	^QCMultilanguageString on: 'Admin role'
+	^ QCMultilanguageString on: 'Admin role'

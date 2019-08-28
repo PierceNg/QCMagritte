@@ -1,3 +1,3 @@
 accessing-magritte
 adminRoleClass
-	^QCAdminRole
+	^ QCAdminRole

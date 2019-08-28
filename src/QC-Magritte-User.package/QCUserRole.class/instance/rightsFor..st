@@ -1,3 +1,3 @@
 accessing
 rightsFor: aDescription
-	^QCRightsCollector rightsFor: aDescription role: self
+	^ QCRightsCollector rightsFor: aDescription role: self

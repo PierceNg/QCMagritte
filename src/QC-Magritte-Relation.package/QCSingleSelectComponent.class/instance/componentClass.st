@@ -1,3 +1,3 @@
 rendering
 componentClass
-	^container componentClass
+	^ container componentClass

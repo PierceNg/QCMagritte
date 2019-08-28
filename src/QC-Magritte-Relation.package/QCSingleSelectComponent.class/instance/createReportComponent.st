@@ -1,16 +1,14 @@
 initialization
 createReportComponent
-	|reportDescription searchDescription|
+	| reportDescription searchDescription |
 	searchDescription := description searchDescription.
 	searchDescription reference: searchDescription reference.
-	searchDescription
-		reference addCommand: 
-			(QCCommand on: 'Select' condition: nil action: [:row | self select: row ] );
-		yourself.
+	searchDescription reference addCommand: 
+			(QCCommand on: 'Select' condition: nil action: [ :row | self select: row ]).
 	reportDescription := MAPriorityContainer new
 		componentClass: self componentClass;
 		componentRenderer: self componentRenderer;
 		descriptionBuilders: self descriptionBuilders;
 		add: searchDescription;
 		yourself.
-	^reportDescription asComponentOn: description.
+	^ reportDescription asComponentOn: description.

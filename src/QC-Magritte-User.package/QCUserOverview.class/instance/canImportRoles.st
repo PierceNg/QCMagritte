@@ -1,3 +1,3 @@
 testing
 canImportRoles
-	^self user isAdminUser
+	^ self user isAdminUser

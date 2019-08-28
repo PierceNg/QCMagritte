@@ -2,7 +2,7 @@ magritte-description
 descriptionUsers
 	<magritteDescription>
 	^ MAToManyRelationDescription new
-		priority: 300;
+		priority: 200;
 		label: 'Users';
 		accessor: #users;
 		classes: self userClasses;

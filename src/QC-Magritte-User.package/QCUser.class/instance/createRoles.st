@@ -1,3 +1,3 @@
 initialization
 createRoles
-	^OrderedCollection new
+	^ OrderedCollection new

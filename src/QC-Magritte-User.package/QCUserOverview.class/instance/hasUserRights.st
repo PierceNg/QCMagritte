@@ -1,0 +1,4 @@
+testing
+hasUserRights
+
+	^ self hasAdminUser

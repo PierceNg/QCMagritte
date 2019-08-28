@@ -1,5 +1,5 @@
 actions
 triggerDoubleClickFor: aRow
-	self doubleClickCommand
+	self editCommand
 		ifNil: [ " no double click, ignore " ]
-		ifNotNil: [ ^self doubleClickCommand executeOn: aRow component: self ]
+		ifNotNil: [ ^self editCommand executeOn: aRow component: self ]

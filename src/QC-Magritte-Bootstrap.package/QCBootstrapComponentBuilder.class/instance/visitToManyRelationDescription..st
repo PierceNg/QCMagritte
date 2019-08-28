@@ -9,4 +9,4 @@ visitToManyRelationDescription: aDescription
 					aDescription componentClass: QCBQueriedToManyComponent;
 						queryComponentClass: QCBQueriedToManyComponent ]
 				ifFalse: [ aDescription componentClass: QCBToManyComponent ] ].
-	super visitToManyRelationDescription: aDescription
+	^ super visitToManyRelationDescription: aDescription

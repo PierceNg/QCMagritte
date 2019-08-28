@@ -1,3 +1,3 @@
 *qc-magritte-user
 modelClass
-	^self class modelClass
+	^ self class modelClass

@@ -1,3 +1,4 @@
 visiting
 visitRelationDescription: aDescription
-	self rights addAll: (self role rightsForClass: aDescription commonClass)
+	(aDescription userRole isNil or: [  aDescription userRole = self role ])
+		ifTrue: [ self rights addAll: (self role rightsForClass: aDescription commonClass) ]

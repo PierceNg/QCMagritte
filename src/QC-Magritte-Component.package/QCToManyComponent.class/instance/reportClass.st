@@ -1,3 +1,3 @@
 customization
 reportClass
-	^QCReportComponent
+	^ self magritteDescription reportClass ifNil: [ QCReportComponent ]

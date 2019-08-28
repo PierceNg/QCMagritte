@@ -1,3 +1,3 @@
 customization
 reportCssClass
-	^'overview-report'
+	^ 'overview-report'

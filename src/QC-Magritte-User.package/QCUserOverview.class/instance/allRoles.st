@@ -1,3 +1,3 @@
 accessing-magritte
 allRoles
-	^self roles copyWith: self adminRole
+	^ self roles copyWith: self adminRole

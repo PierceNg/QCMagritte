@@ -1,3 +1,4 @@
 *qc-magritte-user
-canViewWithNoLogin: aClass
-	^(self hasClassUserRights: aClass) not
+canViewWithNoLogin: aDescription
+
+	^ aDescription userRole isNil and: [ (self hasClassUserRights: aDescription commonClass) not ]

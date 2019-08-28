@@ -1,3 +1,3 @@
 testing
 canExportRoles
-	^self user isAdminUser
+	^ self user isAdminUser

@@ -11,5 +11,6 @@ buildReport
 			self addColumnCommandsTo: each.
 			each filter: true ] ].
 	retVal showFilter: self magritteDescription showFilter.
-	retVal doubleClickCommand: self editCommand.
-	^retVal
+	retVal editCommand: self editCommand.
+	retVal rowsAction: self rowsAction withScript: self refreshScript.
+	^ retVal

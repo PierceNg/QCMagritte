@@ -1,3 +1,3 @@
 accessing
 reportCommands
-	^reportCommands ifNil: [ reportCommands := self buildReportCommands ]
+	^ reportCommands ifNil: [ reportCommands := self buildReportCommands ]

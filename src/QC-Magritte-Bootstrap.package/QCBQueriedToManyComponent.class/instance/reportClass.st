@@ -1,3 +1,3 @@
 private
 reportClass
-	^QCBMagritteReport
+	^ self magritteDescription reportClass ifNil: [ QCBMagritteReport ]

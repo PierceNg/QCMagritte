@@ -1,3 +1,0 @@
-security
-hasUserManagement
-	^self hasAdminUser
